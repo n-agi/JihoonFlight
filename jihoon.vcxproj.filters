@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{4a39dfae-a862-4bb7-acde-7d15fd288c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\CSceneManager">
+      <UniqueIdentifier>{a43a5529-9c72-4d16-a7f3-0cbc5e218beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\IScene">
+      <UniqueIdentifier>{72cc21c0-d589-48b4-a68d-ef28d44a45b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Global">
+      <UniqueIdentifier>{95d83cbf-1b44-4bd1-8f70-98413e582851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9a74075d-853d-4c37-9b37-cd3d6980389a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CTitleScene">
+      <UniqueIdentifier>{75495475-132e-4689-acb4-cf39f8060ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CBulletManager">
+      <UniqueIdentifier>{4d781af3-3d17-4d75-a557-f82934f4e110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CBullet">
+      <UniqueIdentifier>{d2332e5e-07db-4bd5-aa2f-74e09f1d9a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CGameScene">
+      <UniqueIdentifier>{4ed2c09a-5203-4f6a-9ea0-965d2519c163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CPlayer">
+      <UniqueIdentifier>{fa3fcb35-72cb-48f5-9ab8-977929080201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\CEnemy">
+      <UniqueIdentifier>{b84fd6d3-b33f-41f5-85f4-d027c2b7928c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Global.cpp">
+      <Filter>FrameWork\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>FrameWork\IScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitleScene.cpp">
+      <Filter>Game\CTitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>FrameWork\CSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="CBulletManager.cpp">
+      <Filter>Game\CBulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>Game\CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScene.cpp">
+      <Filter>Game\CGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemy.cpp">
+      <Filter>Game\CEnemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h">
+      <Filter>FrameWork\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>FrameWork\IScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitleScene.h">
+      <Filter>Game\CTitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>FrameWork\CSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletManager.h">
+      <Filter>Game\CBulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>Game\CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScene.h">
+      <Filter>Game\CGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemy.h">
+      <Filter>Game\CEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="jihoon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\JihoonFlight\texture\2_front.ico" />
+  </ItemGroup>
+</Project>
